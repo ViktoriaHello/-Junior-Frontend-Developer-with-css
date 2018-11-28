@@ -1,0 +1,112 @@
+h2 { 
+    height: 40px;
+    width: 650px;
+    color: white;
+    background-color: #3fc5a4;
+    margin-left: 0px;
+    border: 5px solid #3fc5a4;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+}
+  
+ 
+a:link, a:visited {
+        background-color: #3fc5a4;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        border: 2px solid #3fc5a4;
+        border-radius: 7px;        
+}
+
+a:hover, a:active {
+                background-color:white;
+                color: #3fc5a4;
+}            
+
+body {
+    font-family: "Roboto","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-left: 50px;
+    font-size: 1em;    
+}
+p, tr, input,  {color: #313030;}
+
+table, th, td {
+        border: 1px solid #3fc5a4;
+        border-radius: 5px;
+        border-collapse: collapse;
+        
+}
+th {
+    background-color: #3fc5a4;
+    color: white;
+    text-align: left;
+    }   
+tr:nth-child(even){background-color: #effdfa}
+
+.mint {
+    color: #3fc5a4;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.animation {  
+        height: 50%;
+        width: 130px;
+        background-color: #3fc5a4;
+        color: white;
+        padding: 2px 1px;
+        text-align: left;
+        border: 0,5px solid #3fc5a4;
+        border-radius: 25px; 
+        position: relative;
+        animation-name: example;
+        animation-duration: 7s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    @-webkit-keyframes example {
+        0%   {background-color:#3fc5a4; left:0px; top:0px;}
+        50%  {background-color:#fcfc70; left:200px; top:0px;}
+        100%  {background-color:#3fc5a4; left:0px; top:0px;}
+        
+    }
+    
+    input[type="date"], input[type="text"], input[type="number"], select {
+        border: 1px solid #3fc5a4;
+        padding: 7px 5px;
+    }
+
+    .button, input[type=button] {
+        display: inline-block;
+        padding: 7px 5px;
+        font-size: 1em;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #3fc5a4;
+        border: 2px solid #3ab697;
+        border-radius: 10px;
+        box-shadow: 0 9px #32997f;
+        font-family: "Roboto","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+    }
+
+    .button, input[type=button]:hover {
+        background-color: #fff;
+        color:#3fc5a4;
+        border: 2px solid #3ab697;
+    }
+
+    input[type=button]:active {
+        color: #3fc5a4;
+        background-color: #fff;
+        box-shadow: 0 5px #fcfc70;;
+        transform: translateY(4px);
+        border: 2px solid #3fc5a4;
+    }
+  
+        
