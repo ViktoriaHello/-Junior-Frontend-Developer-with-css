@@ -122,9 +122,6 @@ tr:nth-child(even){background-color: #effdfa}
 label {
     cursor: pointer;
 }
-td:hover {
-
-}
 
 table {
     width: 650px;
