@@ -12,24 +12,26 @@ h2 {
   
  
 a:link, a:visited {
-        background-color: #3fc5a4;
         color: white;
         text-align: left;
         text-decoration: none;
         border: 2px solid #3fc5a4;
-        border-radius: 7px;        
+        border-radius: 7px;  
+        background-image: linear-gradient(to top, #3fc5a4,#a9eedd);     
 }
 
 a:hover, a:active {
-                background-color:white;
-                color: #3fc5a4;
+    color: #2c7e69;
+    background-image: linear-gradient(to bottom, #3fc5a4,#a9eedd);
 }            
 
 body {
     font-family: "Roboto","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
-    margin-left: 50px;
-    font-size: 1em;    
+    font-size: 1em;
+    width: 800px;
+    margin: auto;  
 }
+
 p, tr, input,  {color: #313030;}
 
 table, th, td {
@@ -77,6 +79,7 @@ tr:nth-child(even){background-color: #effdfa}
     input[type="date"], input[type="text"], input[type="number"], select {
         border: 1px solid #3fc5a4;
         padding: 7px 5px;
+        outline: none;
     }
 
     .button, input[type=button] {
@@ -88,25 +91,54 @@ tr:nth-child(even){background-color: #effdfa}
         text-decoration: none;
         outline: none;
         color: #fff;
-        background-color: #3fc5a4;
         border: 2px solid #3ab697;
         border-radius: 10px;
         box-shadow: 0 9px #32997f;
         font-family: "Roboto","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+        background-image: linear-gradient(to top, #3fc5a4,#a9eedd);
     }
 
     .button, input[type=button]:hover {
-        background-color: #fff;
-        color:#3fc5a4;
+        color:#2c7e69;
         border: 2px solid #3ab697;
+        background-image: linear-gradient(to bottom, #3fc5a4,#a9eedd);
     }
 
     input[type=button]:active {
-        color: #3fc5a4;
-        background-color: #fff;
+        color: #2c7e69;
         box-shadow: 0 5px #fcfc70;;
         transform: translateY(4px);
         border: 2px solid #3fc5a4;
     }
   
-        
+    .foto {
+       display: inline-block;
+    }
+    
+    .name {
+         display: inline-block;vertical-align: top; 
+    }
+      
+label {
+    cursor: pointer;
+}
+td:hover {
+
+}
+
+table {
+    width: 650px;
+}
+
+.fg:hover {
+    background-image: linear-gradient(to top, #3fc5a4,#a9eedd);
+}
+   
+ #qw {
+     margin: 0px;
+}  
+ 
+ img {
+    widows: 120px;
+    height: 120px;
+}
